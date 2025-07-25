@@ -1,0 +1,5 @@
+print("hello world")
+print("你好世界")
+fp = open('file.txt', 'w+')
+print('hello world'+'你好世界', sep=' ' , end='\n' ,file=fp)
+fp.close()

@@ -1,0 +1,5 @@
+num = input("请输入一个四位正整数")
+print("千位数是："+num[0])
+print("百位数是："+num[1])
+print("十位数是："+num[2])
+print("个位数是："+num[3])
